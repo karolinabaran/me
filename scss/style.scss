@@ -1,0 +1,344 @@
+@import "modules/variables";
+@import "modules/reset";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Quicksand:400,700|Roboto+Mono:400,700');
+
+
+#header{
+	width:100%;
+	height:100vh;
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+.hello{
+	padding-left:25%;
+	padding-top:13%;
+	z-index:1;
+	background-color:transparent;
+	p{
+		font-size: 2.5vw;
+		font-family: $stack-hello;
+		color: $header-text-color;
+		&:first-child {
+			padding-left: 25%;
+		}
+	}
+
+}
+
+#menu{
+	position:fixed;
+	top: 10px;
+    right: 50px;
+    border-top: 1px solid $footer-back-color;
+    z-index:1;
+}
+
+li{
+	display:inline-block;
+	p{
+		font-size: 0.84vw;
+		font-family: $stack-normal;
+		font-weight:$bold;
+		opacity: 0.9;
+		color: $text-color;
+		text-align: center;
+		line-height:250%;
+	}
+	a{
+		text-decoration: none;
+	}
+}
+
+.smallSheet {
+	width: 3vw;
+	height: 8.5vh;
+	list-style: none;
+	margin: 15px;
+	margin-top: 0;
+	border: 4px solid $footer-back-color;
+	border-top:0;
+	background-color: #fff; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	&:hover {
+			background-color: rgba(255,255,204,0.8);
+			p {
+				color: black;
+			}
+		}
+}
+
+.slide1{
+	background-color: $section-color;
+}
+
+.sheetContainer{
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	padding-top: 30px;
+	@media all and (max-width: 499px) {
+		flex-direction:column;
+		justify-content:center;
+		width:80vw;
+		height:15vh;
+		align-items:center;
+	}
+
+}
+
+.sheet{
+	width: 15vw;
+	height: 38vh;
+	background-color: #fff; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	margin: 40px;
+	position:relative;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	animation-duration: 5s;
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	animation-delay: 6s;
+	p{
+		color:$text-color;
+		font-size:2vw;
+		font-family: $stack-normal;
+		text-align:center;
+		font-weight: $bold;
+		opacity:0.78;
+		margin-top:35px;
+	}
+	&:hover {
+		background-color: rgba(255,255,204,0.8);
+		p {
+			color: $text-color;
+			opacity:1;
+		} 
+	}
+}
+
+.sheetIcon{
+	text-align:center;
+	padding-top:10%;
+	opacity: 0.25;
+}
+
+.contactSheet{
+	background-color: #fff; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	height: 25vh;
+	width: 40vw;
+	border-radius:10px;
+	margin:0 auto;
+	margin-top:25px;
+	margin-bottom:10px;
+	border: 3px solid #caad75;
+	position:relative;
+	@media all and (max-width: 499px) {
+		width: 10vw;
+		height:3vh;
+	}
+	p{
+		color:$text-color;
+		font-size:1.3vw;
+		font-family: $stack-normal;
+		display:inline-block;
+		padding-top:3%;
+		padding-left:8%;
+		padding-right:30px;
+		font-weight:$bold;
+		opacity: 0.9;
+		line-height:90%;
+		.mail{
+			color: #78b0ba;
+			padding-left:12px;
+			display:inline-block;
+			text-decoration: underline;
+		}
+		.github{
+			color:black;
+		}
+		.contact{
+			text-decoration:underline;
+			display:inline-block;
+			padding-top:3%;
+			padding-bottom:5%;
+		}
+		.linkedin{
+			color: #0077b5;
+		}
+		.cv{
+			color: #e9967a;
+		}
+	}
+}
+
+.contactText{
+	display:flex;
+	flex-direction: row;
+}
+
+.circle{
+	border-radius:50%;
+	width:10px;
+	height:10px;
+	background-color: $bigger-circle-color;
+	position:absolute;
+	top:4%;
+	left:48%;
+	position:relative;
+}
+
+.circleContact{
+	background-color:$contact-circle-color;
+	border-radius:50%;
+	width:10px;
+	height:10px;
+	position:relative;
+}
+
+.smallCircle{
+	border-radius:50%;
+	width:3px;
+	height:3px;
+	position:absolute;
+	top:40%;
+	left:40%;
+	background-color: $small-circle-color;
+	opacity: 0.5;
+}
+
+.top1{
+	position:absolute;
+	top:15px;
+	left: 15px;
+}
+
+.top2{
+	position:absolute;
+	top:15px;
+	right: 15px;
+}
+
+.bottom3{
+	position:absolute;
+	bottom:15px;
+	right: 15px;
+}
+
+.bottom4{
+	position:absolute;
+	bottom:15px;
+	left: 15px;
+}
+
+
+.fp-controlArrow.fp-next {
+	border-color: transparent transparent transparent #ffebeb;
+}
+
+.fp-controlArrow.fp-prev {
+	border-color: transparent #ffebeb transparent transparent;
+}
+
+.slider{
+	p{
+		font-size: 1.5vw;
+		color: $text-color;
+		font-family: $stack-normal;
+		padding:10%;
+	}
+	h2{
+		font-size: 3vw;
+		color: black;
+		font-family: $stack-normal;
+		font-weight: $bold;
+		padding-left:8.5%;
+		padding-top:3%;
+		padding-bottom:3%;
+		text-decoration: underline;
+	}
+}
+
+.slide2{
+	background-color: $slide-back-color; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	p{
+		padding:1%;
+		padding-left:9%;
+		padding-right:9%;
+		font-size:1.2vw;
+		font-weight: $bold;
+	}
+}
+
+.slide3{
+	background-color: $slide-back-color; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	p{
+		padding:1%;
+		padding-left:9%;
+		padding-right:9%;
+		font-size:1.2vw;
+		font-weight: $bold;
+		&:nth-child(2) {
+			text-align:center;
+		}
+		&:nth-child(4) {
+			text-align:center;
+		}
+	}
+}
+
+.construction{
+	text-align:center;
+}
+
+.slide4{
+	background-color: $slide-back-color; 
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+	p{
+		padding:1%;
+		padding-left:9%;
+		padding-right:9%;
+		font-size:1.2vw;
+		font-weight: $bold;
+	}
+}
+
+.section2{
+	position:relative;
+}
+
+footer{
+	z-index:1;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	font-size: 1vw;
+	font-family: $stack-normal;
+	color: $text-color;
+	line-height: 270%;
+	text-align: center;
+	background-color: $footer-back-color;
+}
