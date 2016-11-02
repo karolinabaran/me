@@ -51,7 +51,7 @@ table {
 
 .hello {
   padding-left: 25%;
-  padding-top: 10%;
+  padding-top: 12vmax;
   z-index: 1;
   background-color: transparent; }
 
@@ -145,7 +145,7 @@ li a {
   text-align: center;
   font-weight: 700;
   opacity: 0.78;
-  margin-top: 35px; }
+  margin-top: 2.5vmax; }
 
 .sheet:hover {
   background-color: rgba(255, 255, 204, 0.8); }
