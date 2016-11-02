@@ -63,14 +63,6 @@ table {
 .hello p:first-child {
   padding-left: 25%; }
 
-/*@media all and (max-width: 499px) {
-  #menu {
-    visibility:hidden; } }
-
-@media all and (min-width: 500px) {
-  #menu {
-    visibility: visible; } }
-
 #menu {
   position: fixed;
   top: 10px;
@@ -83,7 +75,7 @@ li {
   display: inline-block; }
 
 li p {
-  font-size: 0.84vw;
+  font-size: 0.7vmax;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   opacity: 0.9;
@@ -95,8 +87,8 @@ li a {
   text-decoration: none; }
 
 .smallSheet {
-  width: 3vw;
-  height: 7vh;
+  width: 4vmin;
+  height: 6vmin;
   list-style: none;
   margin: 15px;
   margin-top: 0;
@@ -110,7 +102,7 @@ li a {
   background-color: rgba(255, 255, 204, 0.8); }
 
 .smallSheet:hover p {
-  color: black; } */
+  color: black; }
 
 .slide1 {
   background-color: #e4c68f; }
@@ -121,18 +113,10 @@ li a {
   justify-content: center;
   padding-top: 30px; }
 
-/*@media all and (max-width: 499px) {
-  .sheetContainer {
-    flex-direction: column;
-    justify-content: center;
-    width: 80vw;
-    height: 15vh;
-    align-items: center; } }*/
-
 
 .sheet {
-  width: 15vmin;
-  height: 29vmin;
+  width: 17vmin;
+  height: 30vmin;
   background-color: #fff;
   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
   background-size: 100% 1.2em;
@@ -156,7 +140,7 @@ li a {
 
 .sheet p {
   color: #463E3F;
-  font-size: 2vw;
+  font-size: 2vmax;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
   font-weight: 700;
@@ -179,7 +163,7 @@ li a {
   background-color: #fff;
   background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.1em, transparent 0.1em);
   background-size: 100% 1.2em;
-  height: 22vmax;
+  height: 18vmax;
   width: 35vmax;
   border-radius: 10px;
   margin: 0 auto;
@@ -200,7 +184,7 @@ li a {
 
 .contactSheet p {
   color: #463E3F;
-  font-size: 1.3vw;
+  font-size: 1.3vmax;
   font-family: "Josefin Sans", sans-serif;
   display: inline-block;
   padding-top: 3%;
@@ -313,7 +297,7 @@ li a {
   padding: 1%;
   padding-left: 9%;
   padding-right: 9%;
-  font-size: 1.2vw;
+  font-size: 1.6vmax;
   font-weight: 700; }
 
 .slide3 {
@@ -325,7 +309,7 @@ li a {
   padding: 1%;
   padding-left: 9%;
   padding-right: 9%;
-  font-size: 1.2vw;
+  font-size: 1.6vmax;
   font-weight: 700; }
 
 .slide3 p:nth-child(2) {
@@ -346,7 +330,7 @@ li a {
   padding: 1%;
   padding-left: 9%;
   padding-right: 9%;
-  font-size: 1.2vw;
+  font-size: 1.6vmax;
   font-weight: 700; }
 
 .section2 {
