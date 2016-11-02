@@ -1,6 +1,6 @@
 # me
 
-Feel welcome to visit my female front-end pinky web;)
+Feel welcome to visit my front-end pinky web;)
 
 If you are interested what's inside in the code, that's it:
 - lots of PS and creative art
