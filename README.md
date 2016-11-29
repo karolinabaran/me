@@ -10,7 +10,8 @@ If you are interested what's inside in the code, that's it:
 - Sass for CSS
 - fonts for the small pictures: Fontello and Font Awesome
 
-- unfortunatelly, I recommend the visit mainly on Chrome ;)
+
+- unfortunately, I recommend the visit mainly on Chrome ;)
 
 
 https://karolinabaran.github.io/me
