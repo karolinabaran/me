@@ -9,10 +9,6 @@ If you are interested what's inside in the code, that's it:
 - animate.css (ready stuff to use)
 - Sass for CSS
 - fonts for the small pictures: Fontello and Font Awesome
-
-
-
-
 - unfortunately, I recommend the visit mainly on Chrome ;)
 
 
